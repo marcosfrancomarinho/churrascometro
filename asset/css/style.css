@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url(../image/mesa.jpg);
+background-position:center;
+background-size: contain;
+background-color: rgb(96, 0, 0);
+}
+header{
+    margin: 10px 0 10px 0 ;
+}
+h1{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    color:rgb(103, 13, 13);
+    font-size: 70px;
+    text-shadow: 1px 1px rgb(255, 255, 255);
+}
+section{
+    position: relative;
+    background-image: url(../image/carne.gif);
+    background-position: center;
+    background-size: cover;
+    max-width: 500px;
+    height: 420px;
+    margin: auto;
+    padding: 45px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px 1px rgb(0, 0, 0);
+}
+input{
+    box-shadow: 1px 1px 1px 1px black;
+    display: block;
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif 
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: 900;
+    box-shadow: 1px 1px 1px 1px black;
+    cursor: pointer;
+    background-color: rgb(103, 13, 13);
+    color: white;
+}
+button:hover{
+    background-color: brown;
+}
+.container-result{
+    opacity: 0;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    position: relative;
+    left: -1000px;
+    transition: all 1s;
+}
+.content-result{
+    width: 100%;
+}
+span{
+    opacity: 0;
+    color: rgb(73, 1, 1);
+}
+.result{
+    display: inline;
+    font-weight: 900;
+    font-size: 20px;
+    color: rgb(93, 4, 4);
+    font-family: 'Black Ops One', cursive;
+    font-weight: 900;
+    width: 100%;
+    
+}
+footer{
+    text-align: center;
+    color: rgb(116, 5, 5);
+    margin: 10px;
+    font-weight: 900;
+    text-shadow: 0.5px 0.5px white;
+    font-size: 25px;
+}
